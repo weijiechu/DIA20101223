@@ -1,0 +1,648 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<region>
+	<space id="30" name="thirdBuilding">
+		<level id="52" name="secondfloor">
+			<zone id="5" name="2201">
+				<scope shapetype = "rectangle">
+					<point>
+						<x>355</x>
+						<y>214</y>
+					</point>
+					<point>
+						<x>420</x>
+						<y>278</y>
+					</point>
+				</scope>
+				<type>T_ROOM</type>
+				<description>服务系</description>
+				<state>S_FREE</state>
+				<link id="25" distance="380" name="link21">
+					<at>8</at>
+				</link>
+				<link id="26"  distance="300" name="link21">
+					<at>10</at>
+				</link>
+			</zone>
+			<zone id="6" name="2202">
+				<scope shapetype = "rectangle">
+					<point>
+						<x>298</x>
+						<y>214</y>
+					</point>
+					<point>
+						<x>356</x>
+						<y>278</y>
+					</point>
+				</scope>
+				<type>T_ROOM</type>
+				<description>外交办公室</description>
+				<state>S_FREE</state>
+				<link id="27" distance="400" name="link21">
+					<at>8</at>
+				</link>
+				<link id="28"  distance="250" name="link21">
+					<at>10</at>
+				</link>
+			</zone>
+			<zone id="7" name="2203">
+				<scope shapetype = "rectangle">
+					<point>
+						<x>240</x>
+						<y>214</y>
+					</point>
+					<point>
+						<x>298</x>
+						<y>279</y>
+					</point>
+				</scope>
+				<type>T_ROOM</type>
+				<description>嵌入式</description>
+				<state>S_FREE</state>
+				<link id="29" distance="450" name="link21">
+					<at>8</at>
+				</link>
+				<link id="30"  distance="200" name="link21">
+					<at>10</at>
+				</link>
+			</zone>
+			<zone id="8" name="WC-1">
+				<scope shapetype = "rectangle">
+					<point>
+						<x>356</x>
+						<y>2</y>
+					</point>
+					<point>
+						<x>409</x>
+						<y>46</y>
+					</point>
+				</scope>
+				<type>T_ROOM</type>
+				<description>二楼办公区厕所</description>
+				<state>S_FREE</state>
+				<link id="34" distance="380" name="link2">
+					<at>5</at>
+				</link>
+				<link id="35" distance="400" name="link2">
+					<at>6</at>
+				</link>
+				<link id="36" distance="450" name="link2">
+					<at>7</at>
+				</link>
+				<link id="37" distance="320" name="link2">
+					<at>10</at>
+				</link>
+				
+			</zone>
+			
+			<zone id="9" name="2209">
+				<scope shapetype = "rectangle">
+					<point>
+						<x>90</x>
+						<y>1</y>
+					</point>
+					<point>
+						<x>298</x>
+						<y>73</y>
+					</point>
+				</scope>
+				<type>T_ROOM</type>
+				<description>会议室</description>
+				<state>S_FREE</state>
+				<link id="38" distance="280" name="link24">
+					<at>10</at>
+				</link>
+			</zone>
+			
+			<zone id="10" name="teachingHall">
+				<scope shapetype = "circle">
+					<point>
+						<x>226</x>
+						<y>153</y>
+					</point>
+					<radius>70</radius>
+				</scope>
+				<type>T_ROOM</type>
+				<description>办公区大厅</description>
+				<state>S_FREE</state>
+				<link id="39" distance="300" name="link25">
+					<at>5</at>
+				</link>
+				
+				<link id="40" distance="250" name="link25">
+					<at>6</at>
+				</link>
+				
+				<link id="41" distance="200" name="link25">
+					<at>7</at>
+				</link>
+				<link id="39" distance="320" name="link25">
+					<at>8</at>
+				</link>
+				
+				<link id="41" distance="280" name="link25">
+					<at>9</at>
+				</link>
+				<link id="40" distance="260" name="link25">
+					<at>12</at>
+				</link>
+				
+				<link id="41" distance="400" name="link25">
+					<at>13</at>
+				</link>
+				<link id="39" distance="300" name="link25">
+					<at>14</at>
+				</link>
+				
+				<link id="40" distance="200" name="link25">
+					<at>15</at>
+				</link>
+				
+				<link id="41" distance="240" name="link25">
+					<at>16</at>
+				</link>
+				<link id="41" distance="270" name="link25">
+					<at>17</at>
+				</link>
+				<link id="41" distance="400" name="link25">
+					<at>27</at>
+				</link>
+			</zone>
+			
+			<zone id="12" name="2210">
+				<scope shapetype = "rectangle">
+					<point>
+						<x>299</x>
+						<y>1</y>
+					</point>
+					<point>
+						<x>355</x>
+						<y>93</y>
+					</point>
+				</scope>
+				<type>T_ROOM</type>
+				<description>管理系</description>
+				<state>S_FREE</state>
+				<link id="38" distance="260" name="link24">
+					<at>10</at>
+				</link>
+			</zone>
+			<zone id="13" name="2208">
+				<scope shapetype = "rectangle">
+					<point>
+						<x>1</x>
+						<y>1</y>
+					</point>
+					<point>
+						<x>44</x>
+						<y>95</y>
+					</point>
+				</scope>
+				<type>T_ROOM</type>
+				<description>软开系</description>
+				<state>S_FREE</state>
+				<link id="38" distance="400" name="link24">
+					<at>10</at>
+				</link>
+			</zone>
+			<zone id="14" name="2207">
+				<scope shapetype = "rectangle">
+					<point>
+						<x>3</x>
+						<y>97</y>
+					</point>
+					<point>
+						<x>89</x>
+						<y>150</y>
+					</point>
+				</scope>
+				<type>T_ROOM</type>
+				<description>微电子系</description>
+				<state>S_FREE</state>
+				<link id="38" distance="300" name="link24">
+					<at>10</at>
+				</link>
+			</zone>
+			<zone id="15" name="2206">
+				<scope shapetype = "rectangle">
+					<point>
+						<x>89</x>
+						<y>122</y>
+					</point>
+					<point>
+						<x>143</x>
+						<y>176</y>
+					</point>
+				</scope>
+				<type>T_ROOM</type>
+				<description>金融系</description>
+				<state>S_FREE</state>
+				<link id="38" distance="200" name="link24">
+					<at>10</at>
+				</link>
+			</zone>
+			<zone id="16" name="2205">
+				<scope shapetype = "rectangle">
+					<point>
+						<x>90</x>
+						<y>176</y>
+					</point>
+					<point>
+						<x>144</x>
+						<y>224</y>
+					</point>
+				</scope>
+				<type>T_ROOM</type>
+				<description>语言系</description>
+				<state>S_FREE</state>
+				<link id="38" distance="240" name="link24">
+					<at>10</at>
+				</link>
+			</zone>
+			<zone id="17" name="2204">
+				<scope shapetype = "rectangle">
+					<point>
+						<x>89</x>
+						<y>225</y>
+					</point>
+					<point>
+						<x>144</x>
+						<y>277</y>
+					</point>
+				</scope>
+				<type>T_ROOM</type>
+				<description>信息安全系</description>
+				<state>S_FREE</state>
+				<link id="38" distance="270" name="link24">
+					<at>10</at>
+				</link>
+			</zone>
+			
+			
+			
+			<zone id="18" name="3205">
+				<scope shapetype = "rectangle">
+					<point>
+						<x>197</x>
+						<y>281</y>
+					</point>
+					<point>
+						<x>282</x>
+						<y>331</y>
+					</point>
+				</scope>
+				<type>T_ROOM</type>
+				<description>3205教室</description>
+				<state>S_FREE</state>
+				<link id="38" distance="160" name="link24">
+					<at>27</at>
+				</link>
+			</zone>
+			<zone id="19" name="3206">
+				<scope shapetype = "rectangle">
+					<point>
+						<x>182</x>
+						<y>282</y>
+					</point>
+					<point>
+						<x>175</x>
+						<y>339</y>
+					</point>
+				</scope>
+				<type>T_ROOM</type>
+				<description>3206教务</description>
+				<state>S_FREE</state>
+				<link id="38" distance="160" name="link24">
+					<at>27</at>
+				</link>
+			</zone>
+			
+			<zone id="20" name="lift">
+				<scope shapetype = "rectangle">
+					<point>
+						<x>244</x>
+						<y>335</y>
+					</point>
+					<point>
+						<x>302</x>
+						<y>364</y>
+					</point>
+				</scope>
+				<type>T_ROOM</type>
+				<description>电梯</description>
+				<state>S_FREE</state>
+				<link id="38" distance="150" name="link24">
+					<at>26</at>
+				</link>
+				<link id="38" distance="150" name="link24">
+					<at>27</at>
+				</link>
+			</zone>
+			<zone id="21" name="WC-2">
+				<scope shapetype = "rectangle">
+					<point>
+						<x>64</x>
+						<y>341</y>
+					</point>
+					<point>
+						<x>174</x>
+						<y>383</y>
+					</point>
+				</scope>
+				<type>T_ROOM</type>
+				<description>WC</description>
+				<state>S_FREE</state>
+				<link id="38" distance="170" name="link24">
+					<at>27</at>
+				</link>
+				<link id="38" distance="150" name="link24">
+					<at>31</at>
+				</link>
+			</zone>
+			<zone id="22" name="3201">
+				<scope shapetype = "rectangle">
+					<point>
+						<x>101</x>
+						<y>412</y>
+					</point>
+					<point>
+						<x>246</x>
+						<y>470</y>
+					</point>
+				</scope>
+				<type>T_ROOM</type>
+				<description>3201教室</description>
+				<state>S_FREE</state>
+				<link id="38" distance="200" name="link24">
+					<at>30</at>
+				</link>
+				<link id="38" distance="270" name="link24">
+					<at>31</at>
+				</link>
+			</zone>
+			<zone id="23" name="3202">
+				<scope shapetype = "rectangle">
+					<point>
+						<x>71</x>
+						<y>469</y>
+					</point>
+					<point>
+						<x>213</x>
+						<y>528</y>
+					</point>
+				</scope>
+				<type>T_ROOM</type>
+				<description>3202教室</description>
+				<state>S_FREE</state>
+				<link id="38" distance="240" name="link24">
+					<at>30</at>
+				</link>
+				<link id="38" distance="220" name="link24">
+					<at>31</at>
+				</link>
+			</zone>
+			<zone id="24" name="3203">
+				<scope shapetype = "rectangle">
+					<point>
+						<x>72</x>
+						<y>530</y>
+					</point>
+					<point>
+						<x>213</x>
+						<y>588</y>
+					</point>
+				</scope>
+				<type>T_ROOM</type>
+				<description>3203教室</description>
+				<state>S_FREE</state>
+				<link id="38" distance="240" name="link24">
+					<at>30</at>
+				</link>
+				<link id="38" distance="220" name="link24">
+					<at>31</at>
+				</link>
+			</zone>
+			<zone id="25" name="3204">
+				<scope shapetype = "rectangle">
+					<point>
+						<x>72</x>
+						<y>587</y>
+					</point>
+					<point>
+						<x>247</x>
+						<y>644</y>
+					</point>
+				</scope>
+				<type>T_ROOM</type>
+				<description>3204教室</description>
+				<state>S_FREE</state>
+				<link id="38" distance="300" name="link24">
+					<at>30</at>
+				</link>
+				<link id="38" distance="300" name="link24">
+					<at>31</at>
+				</link>
+			</zone>
+			<zone id="26" name="east_entry">
+				<scope shapetype = "rectangle">
+					<point>
+						<x>313</x>
+						<y>371</y>
+					</point>
+					<point>
+						<x>340</x>
+						<y>392</y>
+					</point>
+				</scope>
+				<type>T_ROOM</type>
+				<description>东边楼梯口</description>
+				<state>S_FREE</state>
+				<link id="38" distance="150" name="link24">
+					<at>20</at>
+				</link>
+				<link id="38" distance="240" name="link24">
+					<at>27</at>
+				</link>
+				<link id="38" distance="250" name="link24">
+					<at>29</at>
+				</link>
+			</zone>
+			<zone id="27" name="north_corridor">
+				<scope shapetype = "rectangle">
+					<point>
+						<x>183</x>
+						<y>348</y>
+					</point>
+					<point>
+						<x>240</x>
+						<y>398</y>
+					</point>
+				</scope>
+				<type>T_ROOM</type>
+				<description>北边楼道</description>
+				<state>S_FREE</state>
+				<link id="38" distance="400" name="link24">
+					<at>10</at>
+				</link>
+				<link id="38" distance="160" name="link24">
+					<at>18</at>
+				</link>
+				<link id="38" distance="160" name="link24">
+					<at>19</at>
+				</link>
+				<link id="38" distance="150" name="link24">
+					<at>20</at>
+				</link>
+				<link id="38" distance="170" name="link24">
+					<at>21</at>
+				</link>
+				<link id="38" distance="140" name="link24">
+					<at>26</at>
+				</link>
+				<link id="38" distance="300" name="link24">
+					<at>28</at>
+				</link>
+				<link id="38" distance="260" name="link24">
+					<at>29</at>
+				</link>
+			</zone>
+			<zone id="28" name="west_entry">
+				<scope shapetype = "rectangle">
+					<point>
+						<x>33</x>
+						<y>359</y>
+					</point>
+					<point>
+						<x>65</x>
+						<y>391</y>
+					</point>
+				</scope>
+				<type>T_ROOM</type>
+				<description>西边楼梯口</description>
+				<state>S_FREE</state>
+				<link id="38" distance="300" name="link24">
+					<at>27</at>
+				</link>
+				<link id="38" distance="300" name="link24">
+					<at>31</at>
+				</link>
+			</zone>
+			<zone id="29" name="hall">
+				<scope shapetype = "circle">
+					<point>
+						<x>278</x>
+						<y>487</y>
+					</point>
+					<radius>45</radius>
+				</scope>
+				<type>T_ROOM</type>
+				<description>二楼大厅</description>
+				<state>S_FREE</state>
+				<link id="38" distance="250" name="link24">
+					<at>26</at>
+				</link>
+				<link id="38" distance="260" name="link24">
+					<at>27</at>
+				</link>
+				<link id="38" distance="100" name="link24">
+					<at>30</at>
+				</link>
+			</zone>
+			<zone id="30" name="east_corridor">
+				<scope shapetype = "rectangle">
+					<point>
+						<x>215</x>
+						<y>471</y>
+					</point>
+					<point>
+						<x>244</x>
+						<y>586</y>
+					</point>
+				</scope>
+				<type>T_ROOM</type>
+				<description>东边楼道</description>
+				<state>S_FREE</state>
+				<link id="38" distance="200" name="link24">
+					<at>22</at>
+				</link>
+				<link id="38" distance="240" name="link24">
+					<at>23</at>
+				</link>
+				<link id="38" distance="240" name="link24">
+					<at>24</at>
+				</link>
+				<link id="38" distance="300" name="link24">
+					<at>25</at>
+				</link>
+				<link id="38" distance="100" name="link24">
+					<at>29</at>
+				</link>
+			</zone>
+			<zone id="31" name="west_corridor">
+				<scope shapetype = "rectangle">
+					<point>
+						<x>40</x>
+						<y>414</y>
+					</point>
+					<point>
+						<x>70</x>
+						<y>644</y>
+					</point>
+				</scope>
+				<type>T_ROOM</type>
+				<description>西边楼道</description>
+				<state>S_FREE</state>
+				<link id="38" distance="150" name="link24">
+					<at>21</at>
+				</link>
+				<link id="38" distance="270" name="link24">
+					<at>22</at>
+				</link>
+				<link id="38" distance="220" name="link24">
+					<at>23</at>
+				</link>
+				<link id="38" distance="220" name="link24">
+					<at>24</at>
+				</link>
+				<link id="38" distance="300" name="link24">
+					<at>25</at>
+				</link>
+				<link id="38" distance="300" name="link24">
+					<at>28</at>
+				</link>
+				<link id="38" distance="300" name="link24">
+					<at>32</at>
+				</link>
+			</zone>
+			<zone id="32" name="south_entry">
+				<scope shapetype = "rectangle">
+					<point>
+						<x>80</x>
+						<y>1280</y>
+					</point>
+					<point>
+						<x>140</x>
+						<y>1320</y>
+					</point>
+				</scope>
+				<type>T_ROOM</type>
+				<description>南边楼梯口</description>
+				<state>S_FREE</state>
+				<link id="38" distance="300" name="link24">
+					<at>31</at>
+				</link>
+			</zone>
+		</level>
+	</space>
+	
+	<customize>
+		<states>
+			<state>S_FREE</state>
+			<state>S_ALARM</state>
+			<state>S_CLOSE</state>
+		</states>
+		<types>
+			<type>T_ROOM</type>
+			<type>T_HALL</type>
+		</types>
+	</customize>
+</region>
